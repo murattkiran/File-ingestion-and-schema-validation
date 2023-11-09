@@ -1,0 +1,19 @@
+file_type: csv
+dataset_name: housingPricesPaid 
+file_name: price_paid_records
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - transaction_unique_identifier
+    - price
+    - date_of_transfer
+    - property_type
+    - old/new
+    - duration
+    - town/city
+    - district
+    - county
+    - ppdcategory_type
+    - record_status_-_monthly_file_only
